@@ -9,5 +9,5 @@ const Note = ({ id, text, date }) => {
         </div>
     </div>;
 };
-
+ 
 export default Note;
