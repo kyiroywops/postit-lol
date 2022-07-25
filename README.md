@@ -1,14 +1,3 @@
-Para iniciar la aplicación
-
-npm install
-npm install react-icons
-npm start
-
-Integrantes:
-Esteban Zuñiga 21.066.682-6
-Pablo Quintero 21.325.920-2
-Alexis Jonshon 19.540.972-2
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
