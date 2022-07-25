@@ -5,18 +5,18 @@ import { nanoid } from "nanoid";
 const App = () => {
   const [notes, setNotes] = useState([{
     id: nanoid(),
-    text: "This is the first note",
-    date: "15/10/2019"
+    text: "Tienes que lavar los platos",
+    date: "15/05/2022"
   },
   {
     id: nanoid(),
-    text: "This is the second note",
-    date: "15/10/2019"
+    text: "Mañana ir al gimnasio",
+    date: "18/07/2022"
   },
   {
     id: nanoid(),
-    text: "This is the third note",
-    date: "15/10/2019"
+    text: "Hacer la compra",
+    date: "23/08/2022"
   },
   ]);
   const addNote = (text) => {
