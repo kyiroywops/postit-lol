@@ -22,7 +22,7 @@ const AddNote = ({ handleAddNote }) => {
 			<textarea
 				rows='8'
 				cols='10'
-				placeholder='Type to add a note...'
+				placeholder='Ingresa una nota para añadirlo a la lista :)'
 				value={noteText}
 				onChange={handleChange}
 			></textarea>
@@ -31,7 +31,7 @@ const AddNote = ({ handleAddNote }) => {
 					{characterLimit - noteText.length} Palabras
 				</small>
 				<button className='save' onClick={handleSaveClick}>
-					Save
+					Enviar
 				</button>
 			</div>
 		</div>
